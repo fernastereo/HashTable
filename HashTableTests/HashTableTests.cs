@@ -56,7 +56,7 @@ namespace HashTableTests
         }
 
         [Fact]
-        public void Add_WithUnexistingNode_ReturnsFalse()
+        public void Delete_WithUnexistingNode_ReturnsFalse()
         {
             const string keyToDelete = "Four";
 
